@@ -1,6 +1,6 @@
 # Stock Portfolio
 
-This assignment will test the following skills:
+
 
 - Reading and writing to the file system
 - Making HTTP requests
@@ -10,7 +10,7 @@ This assignment will test the following skills:
 
 
 ## Description
-Write a program which will generate up-to-date performance reports for a given
+a program which will generate up-to-date performance reports for a given
 stock portfolio. The program will accept two arguments: an input CSV file which
 contains the holdings information, and, a path to output the CSV report.
 
@@ -112,19 +112,6 @@ AAPL    | 1000  | 123.56   |   156.23       | 12356       |   15623        | 326
 AMZN    | 20    | 2001.1   |   1478.19      | 40022       |   29563        | -10459    |   -0.261
 
 
-## Getting started
-
-Take a modular approach to completing this assignment and build each functional
-component in isolation, accompanied by appropriate tests.
-
-Here is a breakdown of isolated functional units:
-
-- Given a filename, read a CSV and convert it to a Python data structure
-- Build a method which returns the latest market price for holdings
-- Build methods which calculate the book value, market value
-- Build a method to convert the holding into CSV
-- Build a method that writes to the output filename.
-
 
 ## Testing
 
@@ -142,9 +129,6 @@ Install using `pip install requests-mock`.
 As for writing files, use the `tmp_path` fixture that ships with pytest to
 write to temporary locations on the disk.
 
-**Make sure to update `requirements.txt`** and include any libraries required
-to build this project (e.g. `requests`, `requests-mock`) so they are available
-to Travis CI.
 
 ## Packaging
 
@@ -153,12 +137,3 @@ application. Ensure that dependencies required to run your script are included
 (e.g. requests)
 
 
-## Evaluation rubric
-
-| Metric | 4 | 3 | 2 | 1 | 0
-| - | - | - | - | - | -
-| Meets requirements | All requirements are met | Almost all requirements are met |  Most requirements met, some bugs | Incorrect results, several bugs | Program does not work
-| Testing | Unit tests are present and cover all functionality | Most of the script is covered by testing | Partial test coverage, some false assertions present | Minimal testing, false assertions present, missing main functional coverage. | No meaningful tests exist
-| Packaging & delivery | The project is properly packaged, documented and can be installed using pip. | The project is packaged, but is missing certain metadata |  The project is installable, but with some issues. Documentation is incomplete.| Documentation is partial, the package does not install | No packaging present, little or no documentation
-| Reusability | The code could be reused as a whole and each routine could be reused | Most of the code could be reused in other programs | Some parts of the code could be reused in other programs | A few parts of the code could be reused in other programs | The code is not organized for reusability
-| Readability | The code is well organized and very easy to understand | The code is pretty well organized and fairly easy to read | The code has some organization, is a challenge to read | The code is readable only by someone who knows what it is supposed to do | The code is poorly organized and very difficult to read
