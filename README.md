@@ -1,5 +1,19 @@
 # Stock Portfolio
 
+## Purpose
+A application that gives you stock info
+
+## Built With
+Python
+
+
+## Contribution
+Made with ❤️ by [Salman Ghouse](http://www.salmanwebdeveloper.com)
+
+### ©️2020 Stock Advice 
+
+# Stock Portfolio
+
 
 
 - Reading and writing to the file system
